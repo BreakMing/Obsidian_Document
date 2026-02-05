@@ -1,6 +1,6 @@
 射频1527啦 2262什么其实不是射频的频率，这两个可以理解为不同的协议，而射频协议基本都是315或者433
 
-## 433与315的区别
+# 433与315的区别
 
 **传输效率**：433的频率更快  效率更高
 **传输距离**：在相同发射功率下315的传输距离、穿透能力会更强一些，
@@ -9,9 +9,9 @@
 **天线**：频率低的需要更长的天线才能保持稳定，315不适合做板载天线，433还是可以的
 
 
-## 调制方式
+# 调制方式
 
-### ASK Amplitude Shift Keying（OOK） 通-断键控(属于ASK的一种)
+## ASK Amplitude Shift Keying（OOK） 通-断键控(属于ASK的一种)
 
 以载波频率为基准，信号为1时输出，信号为零时不输出，
 
@@ -22,7 +22,7 @@
 缺点：容易被干扰
 
 
-### 2ASK:幅度偏移
+## 2ASK:幅度偏移
 
 在ASK的基础上加上了幅值这一参数
 
@@ -37,7 +37,7 @@
 它俩改变的分别是更高的**频率**和更细节的**相位差**
 
 
-### FSK： Frequency Shift Keying 频率偏移
+## FSK： Frequency Shift Keying 频率偏移
 
 以载波频率为基准，在信号为1时偏移更高的频率，为0时偏移更低的频率，![](https://uploader.shimo.im/f/dWhB4ZK0h5tsAKNJ.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3NzAxNzQzNTMsImZpbGVHVUlEIjoidlZxUk1LcFlQVkN6dzN5UCIsImlhdCI6MTc3MDE3NDA1MywiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwicGFhIjoiYWxsOmFsbDoiLCJ1c2VySWQiOjk1NzYwMzUxfQ.xIcPOcmxLal9kyBJNuLho4_zbmLc0ktmyWWp5LZQo_U)
 
@@ -46,7 +46,7 @@
 
 
 
-### BPSK： Phase Shift Keying 相位偏移
+## BPSK： Phase Shift Keying 相位偏移
 
 以载波频率为基准，在信号为1时和载波形同，在信号为0时与载波偏移半个周期
 
@@ -54,20 +54,20 @@
 
 优点：发射功率高、抗干扰能力强、传输距离远、
 
-### DPSK: 差分相位键控
+## DPSK: 差分相位键控
 
 
 当信号为0时输出不变，当信号为1时对基波进行反相
 
 ![](https://uploader.shimo.im/f/aWi6H4Rie2FO5Cqd.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3NzAxNzYwMjEsImZpbGVHVUlEIjoidlZxUk1LcFlQVkN6dzN5UCIsImlhdCI6MTc3MDE3NTcyMSwiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwicGFhIjoiYWxsOmFsbDoiLCJ1c2VySWQiOjk1NzYwMzUxfQ.6PHYzPZIjulk8ydhm08jgpSHTlCs2XRYUAryhhqKu68)
 
-### 正交振幅调制QAM([5G的核心技术](https://www.bilibili.com/video/BV1azGEzQEUf))
+## 正交振幅调制QAM([5G的核心技术](https://www.bilibili.com/video/BV1azGEzQEUf))
 
 又能调相又能调幅
 
 PSK是最简单的QAM
 
-### 星座图
+## 星座图
 
 
 ![](assets/RF射频/file-20260204164233638.png)
@@ -78,7 +78,7 @@ PSK是最简单的QAM
 **信号可靠性**：看星座图上点与电的距离来判断信号受到干扰后的可靠性
 
 
-### IQ调制技术
+## IQ调制技术
 
 [IQ调制解调](https://www.bilibili.com/video/BV1szNReYEer)
 
@@ -88,9 +88,9 @@ PSK是最简单的QAM
 没看懂太懂
 
 
-## 解码协议
+# 解码协议
 
-### 固定码
+## 固定码
 
 发送和接收所用的都是硬件解码的方式，其中地址是固定的，需要更改的话要对地址引脚进行配置。
 
@@ -102,7 +102,7 @@ PSK是最简单的QAM
 
 **芯片推荐**：hs2262（发送）hs2272（接收）
 
-### 学习码
+## 学习码
 
 发送使用是编码芯片，解码使用对应硬件或mcu进行解码
 
@@ -115,7 +115,7 @@ PSK是最简单的QAM
 
 **芯片推荐**：[ev1527](https://item.szlcsc.com/datasheet/eV1527/21878054.html?spm=sc.it.xds.a&lcsc_vid=RFcLU1BUTlkMUgEAQlVZBFxSRVdWVwVVTwNWXlIHQwMxVlNRR1FWUV1VTldXXjsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D)（发送）、[fb1527](https://img.eecart.com/dev/file/part/spec/20240202/006a8c97e5574c4cad69c1dd9f607a9f.pdf)（发送）、[fj1527](https://item.szlcsc.com/datasheet/FJ1527-M3/5842847.html?spm=sc.it.xds.a&lcsc_vid=EwdZAQBUEQVXUlxREVQIUAZRFgUNVlMAEgVcX1cHFFMxVlNRR1BZUVxeQldYXjsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D)（接收，可以和fb1527进行[对码](https://www.semiee.com/file2/5842577d11f3665a362d0f772495ada6/Source30/Fengniao-FJ1527-M5N.pdf)，来保存发送设备ID）
 
-### 滚动码
+## 滚动码
 
 [滚动码](https://blog.csdn.net/bashendixie5/article/details/135405871)，也叫跳跃码，是远程无钥匙进入系统中的一种安全技术
 
@@ -125,7 +125,7 @@ PSK是最简单的QAM
 
 接收端收到数据后解密得到数据，对比序列号和计数值来判断要不要相信这次数据，接收到的计数值应大于等于接收端的计数值。
 
-### 加密算法(还没了解)
+## 加密算法(还没了解)
 
 Keeloq ，Hitag2
 
@@ -137,7 +137,7 @@ Keeloq ，Hitag2
 
 
 
-## 接收低功耗
+# 接收低功耗
 
 接收芯片：[WS480L](https://item.szlcsc.com/datasheet/WS480L/3404128.html?spm=sc.it.xds.a&lcsc_vid=EwdZAQBUEQVXUlxREVQIUAZRFgUNVlMAEgVcX1cHFFMxVlNRR1BZX1NSQ1JfVjsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D)
 低功耗工作条件下：3.3V  3.4/3.8ma   12mw的功率
@@ -159,9 +159,9 @@ Keeloq ，Hitag2
 
 
 
-## 软硬件测试介绍
+# 软硬件测试介绍
 
-### 软件数据方面
+## 软件数据方面
 
 使用[RCSwitch](https://github.com/sui77/rc-switch)库可以获取到别的同频设备发送的信息
 
@@ -175,7 +175,7 @@ bit：协议的位数 这个码有多少位
 
 协议与时序和芯片的不同有比较大的关系，常见的协议大概有十一二个
 
-### 硬件
+## 硬件
 
 ### 通过硬件编解码发送接收
 ![](assets/RF射频/file-20260204183145657.png)
@@ -219,7 +219,7 @@ bit：协议的位数 这个码有多少位
 ![](assets/RF射频/file-20260205120107182.png)
 
 
-## 相关代码固件
+# 相关代码固件
 
 以[射频管家](https://oshwhub.com/ys-tao/shuang-pin-ye-pin-guan-jia-v1-3)硬件为基础的版本更迭[仓库](https://github.com/sprlightning/RF-Master)
 
@@ -232,14 +232,14 @@ bit：协议的位数 这个码有多少位
 
 
 
-## 技术文档
+# 技术文档
 [数字调制技术](https://article.murata.com/zh-cn/article/basics-of-digital-communication-2)
 [关于数字调制的可视化视频](https://www.bilibili.com/video/BV1fGnRzsEms)
 
 
 
 
-## 淘宝无线店铺
+# 淘宝无线店铺
 [蜂鸟无线](https://shop128000514.taobao.com/)
 
 
