@@ -92,7 +92,7 @@ PSK是最简单的QAM
 很干的[IQ调制基础理论](https://www.bilibili.com/video/BV19rU6B4Ed1)讲解
 
 
-没看懂太懂
+没看太懂
 
 
 # 解码协议
