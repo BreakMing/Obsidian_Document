@@ -103,6 +103,10 @@ PSK是最简单的QAM
 
 ![](assets/RF射频/file-20260205161714644.png)
 
+![](assets/RF射频/file-20260205161919279.png)
+
+![](assets/RF射频/file-20260205162140663.png)
+
 以上面这个编码格式为例
 
 脉冲时间：一个电平脉冲所持续的时间
@@ -110,6 +114,9 @@ PSK是最简单的QAM
 数据码形：“0”码：一个脉冲时间的高电平三个脉冲时间的低电平   “1”码：三个脉冲时间的高电平一个脉冲时间的低电平  通过这种方式就组成了数据位的0和1
 
 同步位码形：一个脉冲时间的高电平加31个脉冲时间电平组成的
+
+这几个参数根据协议的不同也会发生变化可以参考下面代码的样式
+
 
 
 
@@ -123,6 +130,8 @@ PSK是最简单的QAM
 地址位是使用芯片引脚进行配置，根据地址位数量的不同，所能够配置的地址数量也有差异可参考下图，
 
 ![400](https://uploader.shimo.im/f/kxBb9Nmj16fNkBbE.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3NzAxNzYwMjEsImZpbGVHVUlEIjoidlZxUk1LcFlQVkN6dzN5UCIsImlhdCI6MTc3MDE3NTcyMSwiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwicGFhIjoiYWxsOmFsbDoiLCJ1c2VySWQiOjk1NzYwMzUxfQ.6PHYzPZIjulk8ydhm08jgpSHTlCs2XRYUAryhhqKu68)
+
+
 
 其中地址引脚可以读取**三种状态（1，0，高阻）**，所以它发送的每一位都需要**2bit**，
 
