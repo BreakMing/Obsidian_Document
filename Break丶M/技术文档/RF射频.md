@@ -15,7 +15,7 @@
 
 以载波频率为基准，信号为1时输出，信号为零时不输出，
 
-![](https://uploader.shimo.im/f/3HXiAjfy81JaldHn.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3NzAxNzQzNTMsImZpbGVHVUlEIjoidlZxUk1LcFlQVkN6dzN5UCIsImlhdCI6MTc3MDE3NDA1MywiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwicGFhIjoiYWxsOmFsbDoiLCJ1c2VySWQiOjk1NzYwMzUxfQ.xIcPOcmxLal9kyBJNuLho4_zbmLc0ktmyWWp5LZQo_U)
+![400](https://uploader.shimo.im/f/3HXiAjfy81JaldHn.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3NzAxNzQzNTMsImZpbGVHVUlEIjoidlZxUk1LcFlQVkN6dzN5UCIsImlhdCI6MTc3MDE3NDA1MywiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwicGFhIjoiYWxsOmFsbDoiLCJ1c2VySWQiOjk1NzYwMzUxfQ.xIcPOcmxLal9kyBJNuLho4_zbmLc0ktmyWWp5LZQo_U)
 
 优点：简单、可靠、功耗低、成本低
 
@@ -28,7 +28,7 @@
 
 它包含了2bit的信息
 
-![](https://uploader.shimo.im/f/DzUSuwt8YqzhE3XQ.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3NzAxNzQzNTMsImZpbGVHVUlEIjoidlZxUk1LcFlQVkN6dzN5UCIsImlhdCI6MTc3MDE3NDA1MywiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwicGFhIjoiYWxsOmFsbDoiLCJ1c2VySWQiOjk1NzYwMzUxfQ.xIcPOcmxLal9kyBJNuLho4_zbmLc0ktmyWWp5LZQo_U)
+![400](https://uploader.shimo.im/f/DzUSuwt8YqzhE3XQ.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3NzAxNzQzNTMsImZpbGVHVUlEIjoidlZxUk1LcFlQVkN6dzN5UCIsImlhdCI6MTc3MDE3NDA1MywiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwicGFhIjoiYWxsOmFsbDoiLCJ1c2VySWQiOjk1NzYwMzUxfQ.xIcPOcmxLal9kyBJNuLho4_zbmLc0ktmyWWp5LZQo_U)
 
 相同的载波频率下，改变幅值来实现数据的传递，
 
@@ -39,7 +39,7 @@
 
 ## FSK： Frequency Shift Keying 频率偏移
 
-以载波频率为基准，在信号为1时偏移更高的频率，为0时偏移更低的频率，![](https://uploader.shimo.im/f/dWhB4ZK0h5tsAKNJ.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3NzAxNzQzNTMsImZpbGVHVUlEIjoidlZxUk1LcFlQVkN6dzN5UCIsImlhdCI6MTc3MDE3NDA1MywiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwicGFhIjoiYWxsOmFsbDoiLCJ1c2VySWQiOjk1NzYwMzUxfQ.xIcPOcmxLal9kyBJNuLho4_zbmLc0ktmyWWp5LZQo_U)
+以载波频率为基准，在信号为1时偏移更高的频率，为0时偏移更低的频率，![400](https://uploader.shimo.im/f/dWhB4ZK0h5tsAKNJ.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3NzAxNzQzNTMsImZpbGVHVUlEIjoidlZxUk1LcFlQVkN6dzN5UCIsImlhdCI6MTc3MDE3NDA1MywiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwicGFhIjoiYWxsOmFsbDoiLCJ1c2VySWQiOjk1NzYwMzUxfQ.xIcPOcmxLal9kyBJNuLho4_zbmLc0ktmyWWp5LZQo_U)
 
 优点：抗干扰强、频谱利用率高且高效
 
@@ -50,7 +50,7 @@
 
 以载波频率为基准，在信号为1时和载波形同，在信号为0时与载波偏移半个周期
 
-![](https://uploader.shimo.im/f/0NGkovSldChDTqc9.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3NzAxNzQzNTMsImZpbGVHVUlEIjoidlZxUk1LcFlQVkN6dzN5UCIsImlhdCI6MTc3MDE3NDA1MywiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwicGFhIjoiYWxsOmFsbDoiLCJ1c2VySWQiOjk1NzYwMzUxfQ.xIcPOcmxLal9kyBJNuLho4_zbmLc0ktmyWWp5LZQo_U)
+![400](https://uploader.shimo.im/f/0NGkovSldChDTqc9.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3NzAxNzQzNTMsImZpbGVHVUlEIjoidlZxUk1LcFlQVkN6dzN5UCIsImlhdCI6MTc3MDE3NDA1MywiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwicGFhIjoiYWxsOmFsbDoiLCJ1c2VySWQiOjk1NzYwMzUxfQ.xIcPOcmxLal9kyBJNuLho4_zbmLc0ktmyWWp5LZQo_U)
 
 优点：发射功率高、抗干扰能力强、传输距离远、
 
@@ -59,7 +59,7 @@
 
 当信号为0时输出不变，当信号为1时对基波进行反相
 
-![](https://uploader.shimo.im/f/aWi6H4Rie2FO5Cqd.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3NzAxNzYwMjEsImZpbGVHVUlEIjoidlZxUk1LcFlQVkN6dzN5UCIsImlhdCI6MTc3MDE3NTcyMSwiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwicGFhIjoiYWxsOmFsbDoiLCJ1c2VySWQiOjk1NzYwMzUxfQ.6PHYzPZIjulk8ydhm08jgpSHTlCs2XRYUAryhhqKu68)
+![400](https://uploader.shimo.im/f/aWi6H4Rie2FO5Cqd.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3NzAxNzYwMjEsImZpbGVHVUlEIjoidlZxUk1LcFlQVkN6dzN5UCIsImlhdCI6MTc3MDE3NTcyMSwiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwicGFhIjoiYWxsOmFsbDoiLCJ1c2VySWQiOjk1NzYwMzUxfQ.6PHYzPZIjulk8ydhm08jgpSHTlCs2XRYUAryhhqKu68)
 
 ## 正交振幅调制QAM([5G的核心技术](https://www.bilibili.com/video/BV1azGEzQEUf))
 
@@ -70,7 +70,7 @@ PSK是最简单的QAM
 ## 星座图
 
 
-![](assets/RF射频/file-20260204164233638.png)
+![400](assets/RF射频/file-20260204164233638.png)
 
 **调制方式**：用的是QFSK  QPSK  QAM再或者是16QAM还是64QAM（这俩都是QAM的变种，就是对QAM进行调相和调频分成更多的区间）
 **信号完整性**：信号受到干扰什么的能再这里体现出来
@@ -96,7 +96,7 @@ PSK是最简单的QAM
 
 地址位是使用芯片引脚进行配置，根据地址位数量的不同，所能够配置的地址数量也有差异可参考下图，
 
-![](https://uploader.shimo.im/f/kxBb9Nmj16fNkBbE.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3NzAxNzYwMjEsImZpbGVHVUlEIjoidlZxUk1LcFlQVkN6dzN5UCIsImlhdCI6MTc3MDE3NTcyMSwiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwicGFhIjoiYWxsOmFsbDoiLCJ1c2VySWQiOjk1NzYwMzUxfQ.6PHYzPZIjulk8ydhm08jgpSHTlCs2XRYUAryhhqKu68)
+![400](https://uploader.shimo.im/f/kxBb9Nmj16fNkBbE.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3NzAxNzYwMjEsImZpbGVHVUlEIjoidlZxUk1LcFlQVkN6dzN5UCIsImlhdCI6MTc3MDE3NTcyMSwiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwicGFhIjoiYWxsOmFsbDoiLCJ1c2VySWQiOjk1NzYwMzUxfQ.6PHYzPZIjulk8ydhm08jgpSHTlCs2XRYUAryhhqKu68)
 
 其中地址引脚可以读取**三种状态（1，0，高阻）**，所以它发送的每一位都需要**2bit**，
 
@@ -109,7 +109,7 @@ PSK是最简单的QAM
 使用学习码的芯片的ID在出厂时就会被固定下来，这里的学习指的是接收端会学习记录发送方的ID，如果有记录的ID他就接收，没记录的就不管。
 
 其中发送的编码芯片的地址ID有20位，数据码位4位
-![](assets/RF射频/file-20260204155946727.png)
+![400](assets/RF射频/file-20260204155946727.png)
 
 补充：淘宝上的定制学习型的发射端，其实是依据芯片 、频率、电阻来进行配置的 芯片确认ID、频率确认调制频率、电阻确定脉冲宽度。（其实还有一个参数，输入电压，输入电压的不同也会影响脉冲宽度[振荡频率](https://item.szlcsc.com/datasheet/eV1527/21878054.html?spm=sc.it.xds.a&lcsc_vid=RFcLU1BUTlkMUgEAQlVZBFxSRVdWVwVVTwNWXlIHQwMxVlNRR1FWUV1VTldXXjsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D)，这个参数随芯片厂商而定不一定都要参考，例如fb1527）
 
@@ -178,14 +178,14 @@ bit：协议的位数 这个码有多少位
 ## 硬件
 
 ### 通过硬件编解码发送接收
-![](assets/RF射频/file-20260204183145657.png)
+![400](assets/RF射频/file-20260204183145657.png)
 
 上图这种样式，发射端遥控器按钮和接收端io输出都是一一对应的关系，每个按键都会发送其固定的协议数据，这样的都是固定码的形式发送的协议。
 
 而能买到的对拷型的遥控器是里面有一个能读取的单片机，通过射频的数据来记录这次数据后面就可以匹配按键来发送这个数据了（其实可以说它是一种学习码了）
 
 ### 硬件发送，硬件接收或软件接收
-![500](assets/RF射频/file-20260204182948036.png)
+![400](assets/RF射频/file-20260204182948036.png)
 
 在通信方式上有两种方案
 但发送端都是硬件发送的，接收可以用硬件解码，也可以使用软件解码
@@ -197,7 +197,7 @@ bit：协议的位数 这个码有多少位
 
 ### pcb板解读
 
-![](assets/RF射频/file-20260205120846954.png)
+![400](assets/RF射频/file-20260205120846954.png)
 
 在自己制作的硬件中核心为一个单片机和不同频率的发送和接收模块，单片机接收到接收模块发送的数据，通过[RCSwitch](https://github.com/sui77/rc-switch)库与库中记录的协议匹配解码，就可以解析出数据信息。
 
@@ -205,18 +205,18 @@ bit：协议的位数 这个码有多少位
 
 同一个遥控器每个不同的键位对应的只有后8bit的数据不同（这个是固定码的地址位只有16位）
 
-![](assets/RF射频/file-20260205112658335.png)
+![400](assets/RF射频/file-20260205112658335.png)
 
 发送数据和测量到的数据（下面的是学习码的）
 
-![](assets/RF射频/file-20260205114743914.png)
+![400](assets/RF射频/file-20260205114743914.png)
 
 
-![](assets/RF射频/file-20260205115107264.png)
+![400](assets/RF射频/file-20260205115107264.png)
 
 同一个厂家发送端是不同的ID（公司大厅灯的开关（左）公司实验室灯开关（右））（同样是学习码）
 
-![](assets/RF射频/file-20260205120107182.png)
+![400](assets/RF射频/file-20260205120107182.png)
 
 
 # 相关代码固件
