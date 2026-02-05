@@ -136,8 +136,6 @@ PSK是最简单的QAM
 
 地址位是使用芯片引脚进行配置，根据地址位数量的不同，所能够配置的地址数量也有差异可参考下图，
 
-![](https://uploader.shimo.im/f/kxBb9Nmj16fNkBbE.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3NzAxNzYwMjEsImZpbGVHVUlEIjoidlZxUk1LcFlQVkN6dzN5UCIsImlhdCI6MTc3MDE3NTcyMSwiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwicGFhIjoiYWxsOmFsbDoiLCJ1c2VySWQiOjk1NzYwMzUxfQ.6PHYzPZIjulk8ydhm08jgpSHTlCs2XRYUAryhhqKu68)
-
 
 
 其中地址引脚可以读取**三种状态（1，0，高阻）**，所以它发送的每一位都需要**2bit**，
