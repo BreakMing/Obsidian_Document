@@ -150,9 +150,12 @@ Keeloq ，Hitag2
 低功耗工作条件下：3.3V  3.4/3.8ma   12mw的功率
 在休眠模式下： 0.01ua电流   从休眠模式启动时间3ms
 
-从理论上来讲，可以有一套唤醒方案，接收端每200ms唤醒接收芯片等10ms看看有没有信号过来，如果有信号就接收信号，接收好后继续休眠，但这样的话就会导致发送方需要发送一段很长的先导信号，这个先导信号最好是要大于等于休眠时间+芯片启动时间的，这样不论在什么时候，接收芯片都能接收到发送的数据，
-但这样也有坏处，就是发送端的发送时间会被拉长，并且不能使用固定的硬件作为发射端（发射信号不能进行编程，增添不了先导信号），不过功耗的事情还好，如果只是低频使用的话。
-所以如果想要接收端低功耗的话，我们就需要两边都是用单片机来进行协议的控制了，但既然都用单片机了，那么用低功耗蓝牙也不是不可以
+从理论上来讲，可以有一套唤醒方案，接收端每200ms唤醒接收芯片等10ms看看有没有信号过来，如果有信号就接收信号，接收好后继续休眠，但这样的话就会导致发送方需要发送一段很长的先导信号，这个先导信号最好是要大于等于休眠时间+芯片启动时间的，这样不论在什么时候，接收芯片都能接收到发送的数据。
+
+但这样也有坏处，就是发送端的发送时间会被拉长，并且不能使用固定的硬件作为发射端（发射信号不能进行编程，增添不了先导信号），不过功耗的事情还好，如果只是低频使用的话
+
+所以如果想要接收端低功耗的话，我们就需要两边都是用单片机来进行协议的控制了，但既然都用单片机了，那么用低功耗蓝牙也不是不可以。
+
 所以在我看来这个方案其实是有上位替代的，并且使用蓝牙协议抗干扰性也会更好（相比433/315这种射频方案来说）。
 
 
@@ -174,11 +177,11 @@ Keeloq ，Hitag2
 
 ![](https://uploader.shimo.im/f/NFcCQEIQhX8sy7n9.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3NzAxNzQzNTMsImZpbGVHVUlEIjoidlZxUk1LcFlQVkN6dzN5UCIsImlhdCI6MTc3MDE3NDA1MywiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwicGFhIjoiYWxsOmFsbDoiLCJ1c2VySWQiOjk1NzYwMzUxfQ.xIcPOcmxLal9kyBJNuLho4_zbmLc0ktmyWWp5LZQo_U)
 
-读数据：发送的数据（这个数据是十进制的）
+**读数据**：发送的数据（这个数据是十进制的）
 
-bit：协议的位数 这个码有多少位
+**bit**：协议的位数 这个码有多少位
 
-协议：几号协议 可以理解为这个库能够解析哪[几种协议时序](https://github.com/sui77/rc-switch/blob/master/RCSwitch.cpp)
+**协议**：几号协议 可以理解为这个库能够解析哪[几种协议时序](https://github.com/sui77/rc-switch/blob/master/RCSwitch.cpp)
 
 协议与时序和芯片的不同有比较大的关系，常见的协议大概有十一二个
 
