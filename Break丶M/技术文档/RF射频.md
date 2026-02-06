@@ -197,7 +197,7 @@ PSK是最简单的QAM
 
 发射端在出厂前会预先烧录固定的ID，这个ID是不能够被更改的，接收端拥有记录学习功能，能够学习不同的遥控器的ID。如果遥控器丢失了，或者想要增添遥控器，只需要让接收端记录新的ID就可实现控制功能。
 
-
+学习码的编码格式与单片机模拟的编码格式相同，
 
 
 补充：淘宝上的定制学习型的发射端，其实是依据芯片 、频率、电阻来进行配置的 芯片确认ID、频率确认调制频率、电阻确定脉冲宽度。（其实还有一个参数，输入电压，输入电压的不同也会影响脉冲宽度[振荡频率](https://item.szlcsc.com/datasheet/eV1527/21878054.html?spm=sc.it.xds.a&lcsc_vid=RFcLU1BUTlkMUgEAQlVZBFxSRVdWVwVVTwNWXlIHQwMxVlNRR1FWUV1VTldXXjsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D)，这个参数随芯片厂商而定不一定都要参考，例如fb1527）
