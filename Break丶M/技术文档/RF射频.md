@@ -69,11 +69,17 @@
 
 ## 正交振幅调制QAM([5G的核心技术](https://www.bilibili.com/video/BV1azGEzQEUf))
 
-
-
 又能调相又能调幅
 
 PSK是最简单的QAM
+
+## 常见通信技术的调制参考
+
+![](assets/RF射频/file-20260206123340400.png)
+
+需要注意的是**wifi**和4g 5g这样的通信方式它是由**OFDM(多载波)** 和这些调制技术结合所产生的
+
+
 
 ## 星座图
 
@@ -218,7 +224,7 @@ PSK是最简单的QAM
 如果这个ID足够特殊的话，也是会与固定码的芯片重叠的。
 
 
-**芯片推荐**：[ev1527](https://item.szlcsc.com/datasheet/eV1527/21878054.html?spm=sc.it.xds.a&lcsc_vid=RFcLU1BUTlkMUgEAQlVZBFxSRVdWVwVVTwNWXlIHQwMxVlNRR1FWUV1VTldXXjsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D)（发送）、[fb1527](https://img.eecart.com/dev/file/part/spec/20240202/006a8c97e5574c4cad69c1dd9f607a9f.pdf)（发送）、[fj1527](https://item.szlcsc.com/datasheet/FJ1527-M3/5842847.html?spm=sc.it.xds.a&lcsc_vid=EwdZAQBUEQVXUlxREVQIUAZRFgUNVlMAEgVcX1cHFFMxVlNRR1BZUVxeQldYXjsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D)（接收，可以和fb1527进行[对码](https://www.semiee.com/file2/5842577d11f3665a362d0f772495ada6/Source30/Fengniao-FJ1527-M5N.pdf)，来保存发送设备ID）
+**芯片推荐**：[ev1527](https://item.szlcsc.com/datasheet/eV1527/21878054.html?spm=sc.it.xds.a&lcsc_vid=RFcLU1BUTlkMUgEAQlVZBFxSRVdWVwVVTwNWXlIHQwMxVlNRR1FWUV1VTldXXjsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D)（发送）、[fb1527](https://img.eecart.com/dev/file/part/spec/20240202/006a8c97e5574c4cad69c1dd9f607a9f.pdf)（发送）、[fj1527](https://item.szlcsc.com/datasheet/FJ1527-M3/5842847.html?spm=sc.it.xds.a&lcsc_vid=EwdZAQBUEQVXUlxREVQIUAZRFgUNVlMAEgVcX1cHFFMxVlNRR1BZUVxeQldYXjsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D)（接收）
 
 ## 滚动码
 
@@ -226,7 +232,7 @@ PSK是最简单的QAM
 
 我们每次按下遥控器时都会生成一个新的发送数据
 
-大致实现原理：发送设备内有一个计数器，当发送消息时计数器会随着+1，与序列号一起经过密钥加密后再加上键值数据一起发送。
+大致实现原理：发送设备内有一个计数器，当发送消息时计数器会随着+1，与序列号一起经过密钥加密后再加上键值数据一起发送。发送位数与密钥和计数器值等因素有关，也和不同厂家制定的编码协议有关。
 
 接收端收到数据后解密得到数据，对比序列号和计数值来判断要不要相信这次数据，接收到的计数值应大于等于接收端的计数值。
 
@@ -292,22 +298,6 @@ Keeloq ，Hitag2
 上图这种样式，发射端遥控器按钮和接收端io输出都是一一对应的关系，每个按键都会发送其固定的协议数据，这样的都是固定码的形式发送的协议。
 
 而能买到的对拷型的遥控器是里面有一个能读取的单片机，通过射频的数据来记录这次数据后面就可以匹配按键来发送这个数据了
-
-### 硬件发送，硬件接收或软件接收
-![400](assets/RF射频/file-20260204182948036.png)
-
-在通信方式上有两种方案
-但发送端都是硬件发送的，接收可以用硬件解码，也可以使用软件解码
-
-
-
-
-
-
-这种方案一般都是学习码的形式
-
-一般学习码的解码芯片或模块都有对码功能（保存发送端的id）
-
 
 ### pcb板解读
 
