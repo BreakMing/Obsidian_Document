@@ -260,7 +260,7 @@ Keeloq ，Hitag2
 
 ## 软件数据方面
 
-使用[RCSwitch](https://github.com/sui77/rc-switch)库可以获取到别的同频设备发送的信息
+使用[RCSwitch](https://github.com/sui77/rc-switch)库可以获取到其他同频设备发送的信息
 
 ![](https://uploader.shimo.im/f/NFcCQEIQhX8sy7n9.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3NzAxNzQzNTMsImZpbGVHVUlEIjoidlZxUk1LcFlQVkN6dzN5UCIsImlhdCI6MTc3MDE3NDA1MywiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwicGFhIjoiYWxsOmFsbDoiLCJ1c2VySWQiOjk1NzYwMzUxfQ.xIcPOcmxLal9kyBJNuLho4_zbmLc0ktmyWWp5LZQo_U)
 
