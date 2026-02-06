@@ -203,9 +203,9 @@ PSK是最简单的QAM
 学习码的编码格式与单片机模拟的编码格式相同，都是由20位的ID加4位的数据组成。
 
 因为ID位足够多，就降低了重码的概率，但这个也并不绝对安全，单片机是可以模拟出这个数据格式的。
-如果这个ID足够特殊的话，也是会与固定码的芯片由重叠的。
 
-补充：淘宝上的定制学习型的发射端，其实是依据芯片 、频率、电阻来进行配置的 芯片确认ID、频率确认调制频率、电阻确定脉冲宽度。（其实还有一个参数，输入电压，输入电压的不同也会影响脉冲宽度[振荡频率](https://item.szlcsc.com/datasheet/eV1527/21878054.html?spm=sc.it.xds.a&lcsc_vid=RFcLU1BUTlkMUgEAQlVZBFxSRVdWVwVVTwNWXlIHQwMxVlNRR1FWUV1VTldXXjsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D)，这个参数随芯片厂商而定不一定都要参考，例如fb1527）
+如果这个ID足够特殊的话，也是会与固定码的芯片重叠的。
+
 
 **芯片推荐**：[ev1527](https://item.szlcsc.com/datasheet/eV1527/21878054.html?spm=sc.it.xds.a&lcsc_vid=RFcLU1BUTlkMUgEAQlVZBFxSRVdWVwVVTwNWXlIHQwMxVlNRR1FWUV1VTldXXjsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D)（发送）、[fb1527](https://img.eecart.com/dev/file/part/spec/20240202/006a8c97e5574c4cad69c1dd9f607a9f.pdf)（发送）、[fj1527](https://item.szlcsc.com/datasheet/FJ1527-M3/5842847.html?spm=sc.it.xds.a&lcsc_vid=EwdZAQBUEQVXUlxREVQIUAZRFgUNVlMAEgVcX1cHFFMxVlNRR1BZUVxeQldYXjsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D)（接收，可以和fb1527进行[对码](https://www.semiee.com/file2/5842577d11f3665a362d0f772495ada6/Source30/Fengniao-FJ1527-M5N.pdf)，来保存发送设备ID）
 
