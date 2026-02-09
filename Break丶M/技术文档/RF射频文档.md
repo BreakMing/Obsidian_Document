@@ -39,16 +39,13 @@
 
 它俩改变的分别是更高的**频率**和更细节的**相位差**
 
-
 ## FSK： Frequency Shift Keying 频率偏移
-
-蓝牙的本质是使用FSK这种调制方法，实际是它的变种GFSK（高斯滤波FSK）
 
 以载波频率为基准，在信号为1时偏移更高的频率，为0时偏移更低的频率，![400](https://uploader.shimo.im/f/dWhB4ZK0h5tsAKNJ.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3NzAxNzQzNTMsImZpbGVHVUlEIjoidlZxUk1LcFlQVkN6dzN5UCIsImlhdCI6MTc3MDE3NDA1MywiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwicGFhIjoiYWxsOmFsbDoiLCJ1c2VySWQiOjk1NzYwMzUxfQ.xIcPOcmxLal9kyBJNuLho4_zbmLc0ktmyWWp5LZQo_U)
 
 优点：抗干扰强、频谱利用率高且高效
 
-
+蓝牙的本质是使用FSK这种调制方法，实际是它的变种GFSK（高斯滤波FSK）
 
 
 ## BPSK： Phase Shift Keying 相位偏移
