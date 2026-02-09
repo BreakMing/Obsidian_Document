@@ -56,16 +56,9 @@
 
 优点：发射功率高、抗干扰能力强、传输距离远、
 
-## DPSK: 差分相位键控
-
-
-当信号为0时输出不变，当信号为1时对基波进行反相
-
-![400](https://uploader.shimo.im/f/aWi6H4Rie2FO5Cqd.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3NzAxNzYwMjEsImZpbGVHVUlEIjoidlZxUk1LcFlQVkN6dzN5UCIsImlhdCI6MTc3MDE3NTcyMSwiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwicGFhIjoiYWxsOmFsbDoiLCJ1c2VySWQiOjk1NzYwMzUxfQ.6PHYzPZIjulk8ydhm08jgpSHTlCs2XRYUAryhhqKu68)
-
 ## 正交振幅调制QAM([5G的核心技术](https://www.bilibili.com/video/BV1azGEzQEUf))
 
-又能调相又能调幅
+又能**调相**又能**调幅**
 
 PSK是最简单的QAM
 
@@ -74,8 +67,6 @@ PSK是最简单的QAM
 ![](assets/RF射频/file-20260206123340400.png)
 
 需要注意的是**wifi**和4g 5g这样的通信方式它是由**OFDM(多载波)** 和这些调制技术结合所产生的
-
-
 
 ## 星座图
 
