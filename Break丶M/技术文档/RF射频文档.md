@@ -41,44 +41,44 @@
 
 ## FSK： Frequency Shift Keying 频率偏移
 
-以载波频率为基准，在信号为1时偏移更高的频率，为0时偏移更低的频率，![400](https://uploader.shimo.im/f/dWhB4ZK0h5tsAKNJ.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3NzAxNzQzNTMsImZpbGVHVUlEIjoidlZxUk1LcFlQVkN6dzN5UCIsImlhdCI6MTc3MDE3NDA1MywiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwicGFhIjoiYWxsOmFsbDoiLCJ1c2VySWQiOjk1NzYwMzUxfQ.xIcPOcmxLal9kyBJNuLho4_zbmLc0ktmyWWp5LZQo_U)
+以载波频率为基准，在信号为1时偏移更高的频率，为0时偏移更低的频率。![400](https://uploader.shimo.im/f/dWhB4ZK0h5tsAKNJ.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3NzAxNzQzNTMsImZpbGVHVUlEIjoidlZxUk1LcFlQVkN6dzN5UCIsImlhdCI6MTc3MDE3NDA1MywiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwicGFhIjoiYWxsOmFsbDoiLCJ1c2VySWQiOjk1NzYwMzUxfQ.xIcPOcmxLal9kyBJNuLho4_zbmLc0ktmyWWp5LZQo_U)
 
 优点：抗干扰强、频谱利用率高且高效
 
-蓝牙的本质是使用FSK这种调制方法，实际是它的变种GFSK（高斯滤波FSK）
+蓝牙的本质是使用FSK这种调制方法，实际是它的变种GFSK（高斯滤波FSK）。
 
 
 ## BPSK： Phase Shift Keying 相位偏移
 
-以载波频率为基准，在信号为1时和载波形同，在信号为0时与载波偏移半个周期
+以载波频率为基准，在信号为1时和载波形同，在信号为0时与载波偏移半个周期。
 
 ![400](https://uploader.shimo.im/f/0NGkovSldChDTqc9.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3NzAxNzQzNTMsImZpbGVHVUlEIjoidlZxUk1LcFlQVkN6dzN5UCIsImlhdCI6MTc3MDE3NDA1MywiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwicGFhIjoiYWxsOmFsbDoiLCJ1c2VySWQiOjk1NzYwMzUxfQ.xIcPOcmxLal9kyBJNuLho4_zbmLc0ktmyWWp5LZQo_U)
 
-优点：发射功率高、抗干扰能力强、传输距离远、
+优点：发射功率高、抗干扰能力强、传输距离远
 
 ## 正交振幅调制QAM([5G的核心技术](https://www.bilibili.com/video/BV1azGEzQEUf))
 
-又能**调相**又能**调幅**
+又能**调相**又能**调幅**。
 
-PSK是最简单的QAM
+PSK是最简单的QAM。
 
 ## 常见通信技术的调制参考
 
 ![](assets/RF射频/file-20260206123340400.png)
 
-需要注意的是**wifi**和**4g 5g**这样的通信方式它是由**OFDM(多载波)** 和这些调制技术结合所产生的
+需要注意的是**wifi**和**4g 5g**这样的通信方式它是由**OFDM(多载波)** 和这些调制技术结合所产生的。
 
 ## 星座图
 
 ![400](assets/RF射频/file-20260204164233638.png)
 
-**调制方式**：根据星座图可以判断用的是FSK  PSK  QAM再或者是16QAM还是64QAM（这俩都是QAM的变种，就是对QAM进行调相和调幅分成更多的区间）
+**调制方式**：根据星座图可以判断用的是FSK  PSK  QAM再或者是16QAM还是64QAM（这俩都是QAM的变种，就是对QAM进行调相和调幅分成更多的区间）。
 
-**信号完整性**：信号受到干扰什么的能再这里体现出来
+**信号完整性**：信号受到干扰什么的能再这里体现出来。
 
-**查看信号状态**：看星座图上的点来看出信号的幅度和相位
+**查看信号状态**：看星座图上的点来看出信号的幅度和相位。
 
-**信号可靠性**：看星座图上点与点的距离来判断信号受到干扰后的可靠性
+**信号可靠性**：看星座图上点与点的距离来判断信号受到干扰后的可靠性。
 
 # 编码技术
 
@@ -92,25 +92,25 @@ PSK是最简单的QAM
 
 ![](assets/RF射频/file-20260205161919279.png)
 
-以上面这个编码格式为例
+以上面这个编码格式为例。
 
-**脉冲时间（t）**：一个电平脉冲所持续的时间
+**脉冲时间（t）**：一个电平脉冲所持续的时间。
 
-**数据码形**：**“0”码**：一个脉冲时间的高电平三个脉冲时间的低电平   **“1”码**：三个脉冲时间的高电平一个脉冲时间的低电平  通过这种方式就组成了数据位的0和1
+**数据码形**：**“0”码**：一个脉冲时间的高电平三个脉冲时间的低电平   **“1”码**：三个脉冲时间的高电平一个脉冲时间的低电平  通过这种方式就组成了数据位的0和1。
 
-**同步位码形**：1个脉冲时间的高电平加31个脉冲时间的低电平组成的
+**同步位码形**：1个脉冲时间的高电平加31个脉冲时间的低电平组成的。
 
-这几个参数根据协议的不同也会发生变化可以参考下面代码的样式
+这几个参数根据协议的不同也会发生变化可以参考下面代码的样式。
 
 ![](assets/RF射频/file-20260205162417365.png)
 
-我们以第一个协议格式为例它的数据样式是这样的
+我们以第一个协议格式为例它的数据样式是这样的。
 
 ![400](assets/RF射频/file-20260205114743914.png)
 
-433_14152657这串名字是根据接收到的数据所命名的
+433_14152657这串名字是根据接收到的数据所命名的。
 
-其中433指代的是通信频率433M，14152657是接收到的数据，这个数据是十进制的，转换成二进制为
+其中433指代的是通信频率433M，14152657是接收到的数据，这个数据是十进制的，转换成二进制为：
 
 1101 0111 1111 0011 1101 0001
 
