@@ -214,18 +214,6 @@ PSK是最简单的QAM。
 
 接收端收到数据后解密得到数据，对比序列号和计数值来判断要不要相信这次数据，接收到的计数值应大于等于接收端的计数值。
 
-## 加密算法(还没了解)
-
-Keeloq ，Hitag2
-
-
-
-
-
-
-
-
-
 # 接收低功耗
 
 接收芯片：[WS480L](https://item.szlcsc.com/datasheet/WS480L/3404128.html?spm=sc.it.xds.a&lcsc_vid=EwdZAQBUEQVXUlxREVQIUAZRFgUNVlMAEgVcX1cHFFMxVlNRR1BZX1NSQ1JfVjsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D)
