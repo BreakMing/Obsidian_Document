@@ -17,7 +17,7 @@
 
 ## OOK 通-断键控(属于ASK的一种)
 
-以载波频率为基准，信号为1时输出，信号为零时不输出，
+以载波频率为基准，信号为1时输出，信号为零时不输出。
 
 ![400](https://uploader.shimo.im/f/3HXiAjfy81JaldHn.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3NzAxNzQzNTMsImZpbGVHVUlEIjoidlZxUk1LcFlQVkN6dzN5UCIsImlhdCI6MTc3MDE3NDA1MywiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwicGFhIjoiYWxsOmFsbDoiLCJ1c2VySWQiOjk1NzYwMzUxfQ.xIcPOcmxLal9kyBJNuLho4_zbmLc0ktmyWWp5LZQo_U)
 
@@ -27,17 +27,17 @@
 
 ## 2ASK:幅度偏移
 
-在ASK的基础上加上了幅值这一参数
+在ASK的基础上加上了幅值这一参数。
 
-它包含了2bit的信息
+它包含了2bit的信息。
 
 ![400](https://uploader.shimo.im/f/DzUSuwt8YqzhE3XQ.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3NzAxNzQzNTMsImZpbGVHVUlEIjoidlZxUk1LcFlQVkN6dzN5UCIsImlhdCI6MTc3MDE3NDA1MywiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwicGFhIjoiYWxsOmFsbDoiLCJ1c2VySWQiOjk1NzYwMzUxfQ.xIcPOcmxLal9kyBJNuLho4_zbmLc0ktmyWWp5LZQo_U)
 
-相同的载波频率下，改变幅值来实现数据的传递，
+相同的载波频率下，改变幅值来实现数据的传递。
 
-同理也存在 **QFSK QPSK**
+同理也存在 **QFSK QPSK**。
 
-它俩改变的分别是更高的**频率**和更细节的**相位差**
+它俩改变的分别是更高的**频率**和更细节的**相位差**。
 
 ## FSK： Frequency Shift Keying 频率偏移
 
