@@ -224,7 +224,7 @@ PSK是最简单的QAM。
 
 最新的[射频管家代码](https://github.com/zybaozi/RF_MANAGER)
 
-以[ESP32-S3](https://docs.espressif.com/projects/esp-idf/zh_CN/stable/esp32s3/get-started/index.html)做的射频读写[仓库](https://github.com/zhoushoujianwork/433_test_arduino)
+以[ESP32-S3](https://docs.espressif.com/projects/esp-idf/zh_CN/stable/esp32s3/get-started/index.html)做的[射频遥控器](https://github.com/zhoushoujianwork/433_test_arduino)
 
 [数字调制技术](https://article.murata.com/zh-cn/article/basics-of-digital-communication-2)
 
