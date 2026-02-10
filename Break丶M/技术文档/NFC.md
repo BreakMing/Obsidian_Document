@@ -29,7 +29,10 @@
 
 ![](assets/NFC/file-20260210161515239.png)
 
-Mifare 1卡（简称M1卡）
+# Mifare 1卡（简称M1卡）
+
+非接触式逻辑加密卡  符合ISO/IEC14443A   通讯层为（MIFARE  RF  接口） 安全层支持域检验的CRYPTO1数据流加密
+
 
 
 
