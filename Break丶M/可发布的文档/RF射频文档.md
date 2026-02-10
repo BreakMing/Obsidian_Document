@@ -218,7 +218,7 @@ PSK是最简单的QAM。
 
 # 相关资料
 
-以[射频管家](https://oshwhub.com/ys-tao/shuang-pin-ye-pin-guan-jia-v1-3)硬件为基础的版本更迭[仓库](https://github.com/sprlightning/RF-Master)
+以[射频管家](https://oshwhub.com/ys-tao/shuang-pin-ye-pin-guan-jia-v1-3)硬件为基础的版本更迭[代码仓库](https://github.com/sprlightning/RF-Master)
 
 缺少的[ESPAsyncWebServer](https://github.com/sprlightning/ESPAsyncWebServer)库
 
