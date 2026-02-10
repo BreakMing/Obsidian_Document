@@ -31,6 +31,11 @@
 
 ![](assets/NFC/file-20260210161515239.png)
 
+# RFID卡
+
+
+
+
 # Mifare 1卡（简称M1卡）
 
 工作频率：13.56MHz
