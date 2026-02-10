@@ -41,7 +41,9 @@
 
 ## FSK： Frequency Shift Keying 频率偏移
 
-以载波频率为基准，在信号为1时偏移更高的频率，为0时偏移更低的频率。![400](https://uploader.shimo.im/f/dWhB4ZK0h5tsAKNJ.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3NzAxNzQzNTMsImZpbGVHVUlEIjoidlZxUk1LcFlQVkN6dzN5UCIsImlhdCI6MTc3MDE3NDA1MywiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwicGFhIjoiYWxsOmFsbDoiLCJ1c2VySWQiOjk1NzYwMzUxfQ.xIcPOcmxLal9kyBJNuLho4_zbmLc0ktmyWWp5LZQo_U)
+以载波频率为基准，在信号为1时偏移更高的频率，为0时偏移更低的频率。
+
+![](assets/RF射频文档/file-20260210134112307.png)
 
 优点：抗干扰强、频谱利用率高且高效
 
