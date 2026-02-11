@@ -82,7 +82,7 @@ RFID属于识别技术  NFC属于通信技术
 
 ## MFRC522
 
-只能当作读卡器来使用读卡器
+支持ISO/IEC 14443 FYPEA接口和MIFARE通信协议
 
 
 
